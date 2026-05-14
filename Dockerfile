@@ -1,4 +1,4 @@
-FROM subosito/flutter:stable
+FROM cirrusci/flutter:stable
 WORKDIR /app
 COPY pubspec.yaml l10n.yaml ./
 COPY lib ./lib
