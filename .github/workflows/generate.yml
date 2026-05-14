@@ -15,7 +15,8 @@ jobs:
           channel: stable
       - run: flutter pub get
       - run: flutter gen-l10n
-      - run: zip -r generated.zip lib/generated
+      - run: ls -la lib/           # debug
+      - run: zip -r generated.zip lib/generated || echo "No such directory"
       - uses: actions/upload-artifact@v4
         with:
           name: generated-l10n
