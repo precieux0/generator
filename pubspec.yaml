@@ -8,3 +8,6 @@ dependencies:
   shelf_router: ^1.1.0
   archive: ^3.4.0
   path: ^1.8.0
+
+flutter:
+  generate: true
