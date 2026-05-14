@@ -1,0 +1,18 @@
+{
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "forgotPassword": "Forgot password?",
+  "resetEmailSent": "Reset link sent",
+  "age": "Age",
+  "ageMinError": "You must be at least 18 years old",
+  "settings": "Settings",
+  "language": "Language",
+  "legal": "Legal notice",
+  "privacy": "Privacy policy",
+  "register": "Register",
+  "confirmPassword": "Confirm password",
+  "verificationCode": "Verification code",
+  "resendCode": "Resend code",
+  "verify": "Verify"
+}

@@ -1,0 +1,18 @@
+{
+  "email": "Email",
+  "password": "Mot de passe",
+  "login": "Se connecter",
+  "forgotPassword": "Mot de passe oublié ?",
+  "resetEmailSent": "Lien de réinitialisation envoyé",
+  "age": "Âge",
+  "ageMinError": "Vous devez avoir au moins 18 ans",
+  "settings": "Paramètres",
+  "language": "Langue",
+  "legal": "Mentions légales",
+  "privacy": "Politique de confidentialité",
+  "register": "S'inscrire",
+  "confirmPassword": "Confirmer le mot de passe",
+  "verificationCode": "Code de vérification",
+  "resendCode": "Renvoyer le code",
+  "verify": "Vérifier"
+}
