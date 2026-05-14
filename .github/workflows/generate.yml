@@ -15,7 +15,15 @@ jobs:
           channel: stable
       - run: flutter pub get
       - run: flutter gen-l10n
-      - run: zip -r generated.zip lib/generated
+      - name: Archive generated files
+        run: |
+          if [ -d lib/generated ]; then
+            zip -r generated.zip lib/generated
+          else
+            echo "lib/generated not found. Contents of lib:"
+            ls -la lib/
+            exit 1
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: generated-l10n

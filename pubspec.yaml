@@ -1,8 +1,9 @@
-name: l10n_generator
-description: Generate Flutter localization files
+name: generator
+description: A Flutter project to generate l10n files.
 version: 1.0.0
 environment:
   sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
 dependencies:
   flutter:
     sdk: flutter
@@ -12,3 +13,4 @@ dependencies:
 
 flutter:
   generate: true
+  uses-material-design: true
