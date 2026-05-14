@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart' as io;
 import 'package:shelf_router/shelf_router.dart';
 import 'package:archive/archive.dart';
@@ -36,6 +37,7 @@ void main() async {
     });
   });
 
-  final server = await io.serve(app, '0.0.0.0', 8080);
-  print('Server running on http://0.0.0.0:8080');
+  final port = int.parse(Platform.environment['PORT'] ?? '8080');
+  final server = await io.serve(app, '0.0.0.0', port);
+  print('Server running on http://0.0.0.0:$port');
 }
